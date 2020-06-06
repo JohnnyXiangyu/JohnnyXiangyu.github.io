@@ -1,0 +1,112 @@
+<!-- Graphics Example Code.  index.html - The web page document containing the canvas (drawing surface), that launches your javascript files. //-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="icon" href="assets/fav.ico">
+    <script>
+        window.tiny_graphics = {};             // Store all our JavaScipt code inside of classes here.
+        window.classes = {}
+    </script>
+    <style>
+        h1, h2, h3, h4, h5, h6 {
+            font-family: ProximaNova, Helvetica, Arial, sans-serif;
+        }
+
+        .canvas_border {
+            width: 1080px;
+            height: 600px;
+            margin: auto;
+            padding: 20px 20px;
+            border-radius: 60px;
+            background: #eeeeee;
+            box-shadow:  20px 20px 60px #cacaca,
+            -20px -20px 60px #ffffff;
+        }
+        #footer{
+            margin: 20px;
+        }
+        #footer p{
+            margin: 5px;
+            font-size: 0.75rem;
+            text-align: right;
+        }
+        .林克{
+            color: #666666;
+        }
+        #footer span{
+            padding: 2px 0 0 0;
+            vertical-align: baseline;
+        }
+        .giticon {
+            height: 0.7rem;
+            width: 0.7rem;
+            vertical-align: top;
+            margin-top: 4px;
+        }
+        .uclaicon {
+            padding-left: 40px;
+            margin-bottom: -160px;
+            fill: #2774AE
+        }
+        .myh3 {
+            font-weight: bold !important;
+            font-size: 20px !important;
+            color: #347bad !important;
+            padding-bottom: 6px;
+            border-bottom: 1px solid #e4e4e4;
+        }
+        .myh3n {
+            font-weight: bold !important;
+            font-size: 20px !important;
+            color: #FFB81C !important;
+        }
+        .myh1n {
+            font-weight: bold !important;
+            color: #2774AE !important;
+        }
+    </style>
+<script src= "tiny-graphics.js" ></script>
+<script src= "dependencies.js" ></script>
+<script src= "ball.js"></script>
+<script src= "main-scene.js" ></script>
+</head>
+
+<body style="background: #eeeeee">       <!-- Begin typing your web page here. //-->
+<header>
+    <svg class="uclaicon">
+        <path class="st0" d="M0.1 34.2C0 33.4 0 32.2 0 31.6L1.3 17.5h4.6L4.6 31.7c-0.3 3.1 0.9 5.3 4 5.3 3.2 0 4.8-2.2 5.1-5L15 17.5h4.6l-1.3 14.4c-0.5 5.5-4.2 9.7-10.1 9.7C3.6 41.6 0.6 38.6 0.1 34.2"></path>
+        <path class="st0" d="M20.7 29.4c0.6-6.8 5.2-12.4 13.1-12.4 2.1 0 4.1 0.5 6.1 1.8l-0.5 5.6c-1.8-2.4-4-2.8-6-2.8 -4.9 0-7.6 3.4-8 7.7 -0.4 4.2 1.8 7.6 6.6 7.6 2.1 0 4.3-0.6 6.6-2.9L38 39.8c-2.2 1.2-4.3 1.8-6.4 1.8C23.7 41.6 20.2 35.8 20.7 29.4"></path>
+        <path class="st0" d="M43.6 17.5h4.6l-1.7 19.2h6.6c0.5 0 2 0 2.5-0.1 0 0.2-0.4 4.4-0.4 4.4H41.5L43.6 17.5z"></path>
+        <path class="st0" d="M67.6 26.3c0.2-0.3 0.3-0.7 0.3-1 0 0 0.1 0 0.1 0 0 0.3 0.1 0.6 0.2 1 0.3 1.1 2.1 7 2.1 7h-5.8C64.4 33.3 67.6 26.4 67.6 26.3L67.6 26.3zM68.8 16.4l-0.3 0L55.9 41.1h4.9l1.8-3.7h8.9l1.1 3.7h4.9L68.8 16.4z"></path>
+    </svg>
+    <h1 style="text-align: center;">Balanced Ball</h1>
+</header>
+<h2 style="text-align: center;" id="scoreboard"></h2>
+<div class="canvas_border">
+    <div id="main-canvas" class="canvas-widget"></div>
+</div>
+
+<div style="text-align: center; font-size: 20px">
+    <h3 class="myh3">[X]Reset &nbsp;&nbsp; [W]Tilt Up &nbsp;&nbsp;[A]Tilt Left &nbsp;&nbsp;[S]Tilt Down &nbsp;&nbsp;[D]Tilt Right</h3>
+    <br>
+    <h1 class = "myh1n">Congratulations! UCLA CLASS OF 2020! </h1>
+    <h3 class="myh3n">#UCLACOLLEGE2020 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #UCLA2020</h3>
+</div>
+
+<div id="footer">
+    <p>
+        专业团队带制作
+        <a class="林克" href="https://github.com/intro-graphics/team-project-team-wdnmd">
+            <svg class="giticon" viewBox="0 0 16 16" version="1.1" aria-hidden="true">
+                <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+            </svg>
+        </a>
+    </p>
+</div>
+<script> "use strict"
+  const scenes = [ "BalanceBall"];
+  new Canvas_Widget( "main-canvas", scenes );
+</script>
+</body>
+</html>
