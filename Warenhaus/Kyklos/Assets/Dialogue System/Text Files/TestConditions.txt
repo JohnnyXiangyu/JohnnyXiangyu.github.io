@@ -1,0 +1,35 @@
+0;Combat Instructor; ""
+:-
+Hey you, you're finally awake. 
+:-
+0;0;-1;-1;1;Option shown if wc is 0 and skill0 is equipped
+1;1;-1;-1;2;Option shown if wc is 1 and skill1 is equipped 
+2;2;-1;-1;3;Option shown if wc is 2 and skill2 is equipped 
+:-
+1
+
+1;Sergeant Gerard;""
+:-
+You're in the training grounds...
+On your feet soldier! Our village is under attack and we need every sword we can get in this battle.
+:-
+EMPTY
+:-
+-1
+
+2;Combat Instructor;""
+:-
+I'm Sergeant Gerard...
+On your feet soldier! Our village is under attack and we need every sword we can get in this battle.
+:-
+EMPTY
+:-
+-1
+
+3;Combat Instructor;""
+:-
+On your feet soldier! Our village is under attack and we need every sword we can get in this battle.
+:-
+EMPTY
+:-
+-1

@@ -1,0 +1,859 @@
+0;Insert Player Name;PH
+:-
+I can't believe I made it out there alive... What's this?
+It seems that defeating the monster the day before made me stronger.
+I should probably go visit Sergeant Gerad to understand what's happening here.
+:-
+1;-1;-1;0;1;Move to the Training Ground
+2;-1;-1;0;1;Move to the Training Ground
+-2;-1;-1;0;1;Move to the Training Ground (this is for filler node)
+1;-1;-1;3;8;Move to the Training Ground
+2;-1;-1;3;8;Move to the Training Ground
+-2;-1;-1;3;8;Move to the Training Ground (this is for filler node)
+0;-1;-1;1;28;Move to the Tavern
+1;-1;-1;1;28;Move to the Tavern
+2;-1;-1;1;28;Move to the Tavern
+3;-1;-1;1;28;Move to the Tavern
+0;-1;-1;4;94;Move to the Tavern
+1;-1;-1;4;94;Move to the Tavern
+2;-1;-1;4;94;Move to the Tavern
+3;-1;-1;4;94;Move to the Tavern
+0;-1;-1;2;61;Move to the Castle Walls
+3;-1;-1;2;61;Move to the Castle Walls
+-2;-1;-1;2;61;Move to the Castle Walls (this is for filler node)
+0;-1;-1;5;61;Move to the Castle Walls
+3;-1;-1;5;61;Move to the Castle Walls
+-2;-1;-1;5;61;Move to the Castle Walls (this is for filler node)
+-1;-1;-1;6;93; Move to Player House
+-1;-1;-1;7;-1;Move to the Hunting Board
+:-
+1
+
+1;Sergeant Gerard;TG
+:-
+Player's name did you oversleep again?!
+:-
+-1;-1;-1;-1;2;I'm sorry sir
+-1;-1;-1;-1;5;uhhh
+-1;-1;-1;-1;6;no
+:-
+-1
+
+2;Sergeant Gerard;""
+:-
+I don't care if you're sorry, Player's name. We only have 2 more days until this town will be invaded. You have to do something to keep the town safe.
+I would suggest exploring the town and seeing what you can do to help out.
+:-
+-1;-1;-1;-1;3;Where am I?
+:-
+-1
+
+3;Sergeant Gerard;""
+:-
+You’re in Nowyer. If there’s a bright center to the universe, you are the furthest away from it. We’re a small band of people. We live simple lives.
+We don’t get many outsiders anymore, not since the Grand Path which connects all districts on the continent was finished.
+I wonder how you ended up here… Captain Peter can be found on the castle walls. He is overseeing our anti-invasion strategy.
+If there’s any way to strengthen our defenses, the captain would know.
+Amelia is the barkeeper at the tavern, been so for as long as I can remember. Word travels around town quickly and she’s at the epicenter of information exchange where people tend to be talkative.
+The hunting board is where you can find monsters that lurk outside the castle walls. Defeating them will suffice as your training. I do not have time to train you but you can ask me any questions on how to defeat them.
+:-
+-1;-1;-1;-1;4;What's happening?
+:-
+-1
+
+4;Sergeant Gerard;""
+:-
+We have suspicion to believe that the [insert name here] is planning to invade us. 
+Normally, we would only be fighting a couple monsters a month that manage to come out of the forest, but recently the number of monsters that have made it to the walls has increased dramatically. 
+We sent scouts to investigate a couple weeks ago but they haven’t come back since. I fear the worst, which is why we must be prepared. We’re hopelessly outnumbered and unless you miraculously find a way to fortify our defenses, our small defenses don’t stand a chance.
+:-
+EMPTY
+:-
+8
+
+5;Sergeant Gerard;""
+:-
+Are you stupid? Stop stuttering. We only have 2 more days until this town will be invaded. If you don’t do anything, you, me, and everyone else will be dead. You’re wasting my time, please leave.
+:-
+EMPTY
+:-
+7
+
+6;Sergeant Gerard;""
+:-
+Are you lying straight to my face?! Get out! I have no time for soldiers who don’t know anything about respect
+:-
+EMPTY
+:-
+7
+
+7;Player Name;""
+:-
+EMPTY
+:-
+1;-1;-1;0;1;Move to the Training Ground
+2;-1;-1;0;1;Move to the Training Ground
+-2;-1;-1;0;1;Move to the Training Ground (this is for filler node)
+1;-1;-1;3;8;Move to the Training Ground
+2;-1;-1;3;8;Move to the Training Ground
+-2;-1;-1;3;8;Move to the Training Ground (this is for filler node)
+0;-1;-1;1;28;Move to the Tavern
+1;-1;-1;1;28;Move to the Tavern
+2;-1;-1;1;28;Move to the Tavern
+3;-1;-1;1;28;Move to the Tavern
+0;-1;-1;4;94;Move to the Tavern
+1;-1;-1;4;94;Move to the Tavern
+2;-1;-1;4;94;Move to the Tavern
+3;-1;-1;4;94;Move to the Tavern
+0;-1;-1;2;61;Move to the Castle Walls
+3;-1;-1;2;61;Move to the Castle Walls
+-2;-1;-1;2;61;Move to the Castle Walls (this is for filler node)
+0;-1;-1;5;61;Move to the Castle Walls
+3;-1;-1;5;61;Move to the Castle Walls
+-2;-1;-1;5;61;Move to the Castle Walls (this is for filler node)
+-1;-1;-1;6;93; Move to Player House
+-1;-1;-1;7;-1;Move to the Hunting Board
+:-
+-1
+
+8;Player Name;TG
+:-
+EMPTY
+:-
+0;-1;-1;-1;14;Is there anything I can do to help?
+2;-1;-1;-1;15;Is there anything I can do to help?
+1;-1;-1;-1;9;Is there anything I can do to help?
+3;-1;-1;-1;14;Is there anything I can do to help?
+-1;-1;0;-1;24;What do you know about The Zombie?
+-1;-1;1;-1;25;What do you know about The Goat?
+-1;-1;2;-1;26;What do you know about The Ghost?
+-1;-1;2;-1;27;What do you know about The Shark?
+-1;-1;-1;-1;23;What is the compensation for completing a bounty?
+:-
+-1
+
+9;Sergeant Gerard;""
+:-
+We need supplies and more soldiers. Many of our best soldiers were wounded after a skirmish against the [insert enemy name].
+We managed to hold them off, but it was a pyrrhic victory. It’ll take weeks for them to recover. Your efforts should be placed in your training. 
+The more prepared you are, the longer you’ll last out there.
+:-
+-1;-1;-1;-1;10;I’ll give it my best effort sir
+-1;-1;-1;-1;10;You can count on me
+-1;1;-1;-1;11;Sir, I think I can help with the wounded.
+:-
+-1
+
+10;Sergeant Gerard;""
+:-
+“You’ll do great out there. Stay alert.”
+:-
+EMPTY
+:-
+7
+
+11;Sergeant Gerard;""
+:-
+What do you mean?”
+:-
+EMPTY
+:-
+12
+
+12;Player;""
+:-
+I know a healing spell, please let me tend to the wounded.
+:-
+EMPTY
+:-
+13
+
+13;Sergeant Gerard;""
+:-
+You do?! Follow me to the sickbay, we don’t have time to lose.
+<i>(A few hours pass…)</i>
+Outstanding work soldier! Your healing has expedited my soldiers’ recovery tenfold. Now it’s up to me to train them up to combat fitness. Looking forward to fighting with you on the battlefield.
+:-
+EMPTY
+:-
+7
+
+14;Sergeant Gerard;""
+:-
+All our men are healthy and are prepared for combat. There’s nothing more you can do here. I would suggest talking to Captain Peter at the castle walls as he may have new information regarding the defense plan.
+:-
+EMPTY
+:-
+7
+
+15;Sergeant Gerard;""
+:-
+The enemy will have a numerical advantage, but we have better defenses. If our archers are able to remain on the wall we will be able to eliminate some of them before the enemy starts rappelling.
+However, once the wall is broken, our defensive advantage will be eliminated and we’ll have to fight them face to face. 
+:-
+EMPTY
+:-
+16
+
+16;Sergeant Gerard;""
+:-
+This is a filler node so that all nodes can be aligned correctly (remove and renumber the nodes, or ad some othe piece of text here, maybe a sentence from the previous node?)
+:-
+EMPTY
+:-
+17
+
+17;Player;""
+:-
+How do we win?
+:-
+EMPTY
+:-
+18
+
+18;Sergeant Gerard;""
+:-
+We’ll have to try to hold them off as long as possible. The only chance we have is that morale shatters or they lose the will to fight. Not even shields made out of the strongest steel will allow us to repel forever.
+:-
+-1;-1;-1;-1;19;We can’t give up
+-1;2;-1;-1;20;We don’t need the strongest shield
+:-
+-1
+
+19;Sergeant Gerard;""
+:-
+You are right. Until my very last breath I will defend our village.
+:-
+EMPTY
+:-
+7
+
+20;Sergeant Gerard;""
+:-
+I don't understand...
+:-
+EMPTY
+:-
+21
+
+21;Player;""
+:-
+I’ve learned this technique that allows oneself to be protected indefinitely. I can teach it to you and you can teach the soldiers.
+:-
+EMPTY
+:-
+22
+
+22;Sergeant Gerard;""
+:-
+Show me.
+<i>(A few hours pass...)</i>
+You’ve done us a great service. As a last resort we can use this technique in hope that the enemy tires out. Now, I’ve got more work to do, please excuse me.
+:-
+EMPTY
+:-
+7
+
+23;Sergeant Gerard;""
+:-
+I'm sorry but I can't help you with that.
+:-
+EMPTY
+:-
+7
+
+24;Sergeant Gerard;""
+:-
+Hmmm.. This monster is brought back to life from the dead when some kind of spell is used on it. It is interesting that whatever spell that was given to those dead creatures revived them and made them strong.
+:-
+EMPTY
+:-
+7
+
+25;Sergeant Gerard;""
+:-
+Hmmm...This monster, his legs are almost as hard as steel but as light as a feather. Hypothetically, if you obtained his legs, you could probably use his legs as a barrier to protect yourself or anyone from getting any damage from attacks while moving around.”
+:-
+EMPTY
+:-
+7
+
+26;Sergeant Gerard;""
+:-
+Hmmm... This monster has a height advantage as it can float and attack from above. It is a ghost after all.
+:-
+EMPTY
+:-
+7
+
+27;Sergeant Gerard;""
+:-
+Hmmm… This monster has adapted the nature of living on land. It’s teeth are capable of anything .Those teeth are so strong these creatures can bite their way underground. Not only that, those teeth of theirs are rock hard and they are strong enough to block the arrow attacks.
+The arrows just simply bounced off their diamond-like teeth. Legends say that carrying its tooth can magically repel any arrow from an enemy's bow.
+:-
+EMPTY
+:-
+7
+
+28;Player;""
+:-
+I think I would stop-by the Tarven for a drink and I heard that I could also get some information there.
+:-
+EMPTY
+:-
+29
+
+29;Amelia;TV
+:-
+“Welcome! I haven’t seen your face before. Who might you be?
+:-
+EMPTY
+:-
+30
+
+30;Amelia;""
+:-
+This is a filler node in order to maintain alignment of the node tree. (remove and renumber the nodes, or add some text lines so that this node can exist)
+:-
+EMPTY
+:-
+31
+
+31;Player;""
+:-
+My name is [insert Player Name]. I’ve only been here for a couple days.
+:-
+EMPTY
+:-
+32
+
+32;Amelia;""
+:-
+Well, you’re going to be in for a show. I hear that there’s a big battle coming soon.
+:-
+EMPTY
+:-
+33
+
+33;Amelia;""
+:-
+This is a filler node in order to maintain alignment of the node tree. (remove and renumber the nodes, or add some text lines so that this node can exist)
+:-
+EMPTY
+:-
+34
+
+34;Player;""
+:-
+And you’re not leaving?
+:-
+EMPTY
+:-
+35
+
+35;Amelia;""
+:-
+And where would I go? We’re in the middle of nowhere. Besides, I’ve lived here my entire life. I call this place home.
+:-
+EMPTY
+:-
+36
+
+36;Player;""
+:-
+How’s business?
+:-
+EMPTY
+:-
+37
+
+37;Amelia;""
+:-
+Business is always great here. Well, it is the only tarven in the town and it is still standing safely, thanks to the soldiers and Captain [insert name] watching the Castle Walls.
+It’s getting late, just relax and enjoy your drink.
+:-
+EMPTY
+:-
+38
+
+38;Player;""
+:-
+EMPTY
+:-
+-1;-1;-1;-1;39;Could I get a drink?
+-1;-1;-1;-1;40;Do you know anything about the monsters that are on the hunting board?
+0;-1;-1;-1;45;Hey, tell me something I don’t know.
+1;-1;-1;-1;51;Hey, tell me something I don’t know.
+2;-1;-1;-1;53;Hey, tell me something I don’t know.
+3;-1;-1;-1;57;Hey, tell me something I don’t know.
+:-
+-1
+
+39;Amelia;""
+:-
+Of course! Here you go.
+:-
+-1;-1;-1;-1;7;Thanks, the drink was great. I'm going to head out. Take care, Amelia.
+-1;-1;-1;-1;39;I would like another please.
+:-
+-1
+
+40;Player;""
+:-
+EMPTY
+:-
+-1;-1;-1;-1;41;What do you know about the Zombie?
+-1;-1;-1;-1;42;What do you know about the Ghost?”
+:-
+-1
+
+41;Amelia;""
+:-
+This is the one with the huge claw hands. Watch out, that thing grabs. Observe its action closely when you are in a fight with it, you might figure out when the monster will grab you.
+:-
+EMPTY
+:-
+43
+
+42;Amelia;""
+:-
+This one gives me the creeps and grosses me out. Well, it is a ghost. Be careful when it launches its bite attack. This attack is so fast that in a blink of an eye, it already bit you before you could react to it.
+It hardly ever misses too so I suggest you make use of your shield to block the attack, instead of dodging.
+:-
+EMPTY
+:-
+43
+
+43;Player;""
+:-
+Thank you for letting me know. I feel more ready and  prepared to defeat the monsters now. The drink was great. I'm going to head out. Take care, Amelia.
+:-
+EMPTY
+:-
+44
+
+44;Amelia;""
+:-
+Good luck, young man!
+:-
+EMPTY
+:-
+7
+
+45;Amelia;""
+:-
+Very interesting for you to ask that. Alright, I overheard some customers saying that the Castle Walls may not be as strong as it looks. If the Castle Walls defense is not improved, the town is going to be done for.
+But, I heard there is a way that will strengthen the Castle Walls so greatly that it will stop any monsters from entering the town.
+:-
+-1;-1;-1;-1;7;That is something new. Thank you for letting me know. The drink was great. I'm going to head out. Take care, Amelia.
+-1;-1;-1;-1;46;That is something new. I wonder what that would be. Do you know who I should approach to get more information regarding this?
+-1;0;-1;-1;48;That is something new. I have acquired something that might be helpful in protecting the Castle Walls.
+:-
+-1
+
+46;Amelia;""
+:-
+I am not sure but there is a Captain guarding and watching over the Castle Walls, you could talk to him.
+:-
+EMPTY
+:-
+47
+
+47;Player;""
+:-
+Thank you for letting me know. The drink was great. I'm going to head out. Take care, Amelia.
+:-
+EMPTY
+:-
+7
+
+48;Amelia;""
+:-
+Oh? What would that be?
+:-
+EMPTY
+:-
+49
+
+49;Player;""
+:-
+I have this expandable bubble shield that is hard to be broken through.
+:-
+EMPTY
+:-
+50
+
+50;Amelia;""
+:-
+Wow… this might be it. You should definitely talk to the Captain at Castle Walls to discuss about the defense plan regarding this skill you have.
+:-
+EMPTY
+:-
+47
+
+51;Amelia;""
+:-
+Very interesting for you to ask that. Alright, there is a magical spell that can instantly cure any injuries. This might come in handy for keeping soldiers healthy when the monsters invade the town.
+:-
+-1;-1;-1;-1;7;That is something new. Thank you for letting me know. The drink was great. I'm going to head out. Take care, Amelia.
+-1;1;-1;-1;52;That is something new. I think I have acquired something that may relate to that.
+:-
+-1
+
+52;Amelia;""
+:-
+Wow… this might be it. You should definitely talk to your Sergeant at the Training Ground to discuss how to make use of this.”
+:-
+EMPTY
+:-
+47
+
+53;Amelia;""
+:-
+Very interesting for you to ask that. Alright, I heard that if anyone has this certain skill, they won’t take any damage at all. This might be a game changer when it comes to keeping the soldiers and town people safe and uninjured.
+:-
+-1;-1;-1;-1;7;Thank you for letting me know. The drink was great. I'm going to head out. Take care, Amelia.
+-1;2;-1;-1;54;That is something new. I think I have acquired something that may relate to that.
+:-
+-1
+
+54;Amelia;""
+:-
+Oh? What would that be?
+:-
+EMPTY
+:-
+55
+
+55;Player;""
+:-
+I know the technique to block oneself from getting any damage when hit.
+:-
+EMPTY
+:-
+56
+
+56;Amelia;""
+:-
+Wow… this might be it. You should definitely talk to your Sergeant at the Training Ground to discuss how to make use of this.
+:-
+EMPTY
+:-
+47
+
+57;Amelia;""
+:-
+Very interesting for you to ask that. Alright, I heard that if anyone has this certain skill, they can get to the top of the Bell Tower to ring the bell. The Bell Tower is very much needed when it comes to communication between different sides of the wall. I also heard rumors that the ringing sound from the bell makes the monsters weaker as they are sensitive to ringing sound.
+However, no one has ever been able to get to the top of the Bell Tower after the stairs that leads to the top were destroyed.
+:-
+-1;-1;-1;-1;7;Thank you for letting me know. The drink was great. I'm going to head out. Take care, Amelia.
+-1;3;-1;-1;58;That is something new. I think I have acquired something that may relate to that.
+:-
+-1
+
+58;Amelia;""
+:-
+Oh? What would that be?
+:-
+EMPTY
+:-
+59
+
+59;Player;""
+:-
+I know the technique that gives an extra boost when you jump.
+:-
+EMPTY
+:-
+60
+
+60;Amelia;""
+:-
+Wow… this might be it. You should definitely talk to Captain at the 
+Castle Walls to discuss how to make use of this.
+:-
+EMPTY
+:-
+47
+
+61;Player;""
+:-
+Let's see what's going on at the Castle Walls.
+:-
+EMPTY
+:-
+62
+
+62;Captain;CW
+:-
+What are you doing here, soldier? You should be preparing for a big fight that is coming real soon.
+:-
+0;-1;-1;-1;63;Do you need any help with the Castle Walls?
+3;-1;-1;-1;79;Do you need any help with the Castle Walls?
+1;-1;-1;-1;91;Do you need any help with the Castle Walls?
+2;-1;-1;-1;91;Do you need any help with the Castle Walls?
+-1;-1;-1;-1;72;How are the Castle Walls holding up?
+-1;-1;-1;-1;74;Do you have any information on the monsters?
+:-
+63
+
+63;Captain;""
+:-
+The Castle Walls could use some improvement to hold the monster out of the town more securely and more reinforcement would also help in defeating the monsters that are trying to invade the town.
+:-
+-1;-1;-1;-1;64;I could definitely help to fight the monster that tries to invade the town.
+-1;-1;-1;-1;64;I will think about how the Castle Walls defense can be better and report back to you.
+-1;0;-1;-1;66;I think I may have something that could be really helpful in strengthening the Castle Walls.
+:-
+64
+
+64;Captain;""
+:-
+Good to have you here fighting for the safety and  well-being of the town people.
+:-
+EMPTY
+:-
+65
+
+65;Player;""
+:-
+It is my duty to help.
+:-
+EMPTY
+:-
+7
+
+66;Captain;""
+:-
+What would that be?
+:-
+EMPTY
+:-
+67
+
+67;Player;""
+:-
+I have this expandable bubble shield that is hard to be broken through.
+:-
+EMPTY
+:-
+68
+
+68;Captain;""
+:-
+This is incredible! This ability is definitely going to help in strengthening the Castle Wall defense. Now, the monsters would have zero chance of getting into our town. We really appreciate your hard work in earning this skill and increasing the chances of victory against the monsters.
+:-
+EMPTY
+:-
+69
+
+69;Player;""
+:-
+I am glad that this ability came in handy, Captain. It is also my duty to keep the town safe as a soldier.
+:-
+EMPTY
+:-
+70
+
+70;Player;""
+:-
+Good thinking, soldier. Never stop improving yourself and stay strong!
+:-
+EMPTY
+:-
+71
+
+71;Player;""
+:-
+Yes, Captain!
+:-
+EMPTY
+:-
+7
+
+72;Captain;""
+:-
+The Castle Walls are holding up just fine. Of course, suggestions in making the walls stronger are welcome. But, it could hold the monsters out of the town for a good amount of time. By then, I have faith in my soldiers’ abilities to quickly defeat all the monsters that are trying to invade the town. You should focus on training and improving your skills to be better in fighting against the monsters when the day comes.
+:-
+EMPTY
+:-
+73
+
+73;Player;""
+:-
+Understood, Captain.
+:-
+EMPTY
+:-
+7
+
+74;Captain;""
+:-
+Hmm... There are two monsters that I saw in action that tried to attack us but, of course, we quickly defeated them. Which one do you want to know more about?
+:-
+-1;-1;3;-1;75;What do you know about the SandShark?
+-1;-1;1;-1;76;What do you know about the Goat?
+:-
+75
+
+75;Captain;""
+:-
+This is a sneaky monster that we got rid off before it could spy on us or attack us. It lurks underground and pops out of the ground unexpectedly. Observe it closely and you could figure out where and when it may jump out and attack you. You should always be prepared to counter its attack when it launches from underground. Never back down, soldier. We can win this fight!
+:-
+EMPTY
+:-
+7
+
+76;Captain;""
+:-
+This one may have no arms but its legs are no joke. It’s most powerful attack is the full jump attack. If that attack is a direct hit on your head, you will just pass out. You have to dodge this attack no matter what. Blocking it with your shield will just crack and weaken the shield.
+:-
+EMPTY
+:-
+7
+
+77;Player;""
+:-
+Thank you for letting me know. I feel more ready and  prepared to defeat the monsters now. Stay safe, Captain!
+:-
+EMPTY
+:-
+78
+
+78;Captain;""
+:-
+Good luck, young man!
+:-
+EMPTY
+:-
+7
+
+79;Captain;""
+:-
+The Castle Walls themselves are staying strong. Currently we have bell towers at 4 corners of this perimeter. We use these bell towers to communicate if reinforcements are needed at any sections of the wall if there is a breach.
+:-
+EMPTY
+:-
+80
+
+80;Player;""
+:-
+That seems like a good system
+:-
+EMPTY
+:-
+81
+
+81;Captain;""
+:-
+It was...But the stairs leading to the tower have been destroyed. We’ve tried building ladders but the gap is too large. There is no way we’ll be able to get to the top of the tower in time in the heat of battle.
+:-
+-1;-1;-1;-1;82;What if you shouted instead?
+-1;-1;-1;-1;84;What if you fired an arrow at the bell?
+-1;3;-1;-1;85;I can ring the bell.
+:-
+82
+
+82;Captain;""
+:-
+There's no assurance that each of the lieutenants at each side will hear each other. I am sorry but that is an asinine suggestion.
+:-
+EMPTY
+:-
+83
+
+83;Player;""
+:-
+I see. If I thought of a better idea, I will report back to you, Captain. I am going to prepare for the fight and train hard.
+:-
+EMPTY
+:-
+7
+
+84;Captain;""
+:-
+That’s a good idea, but we’ve already tried it. The impact of the arrow hitting the bell is not strong enough to have the bell resonate at a frequency. Additionally, we need to preserve our arrows so having multiple people firing at it would be a waste.
+:-
+EMPTY
+:-
+83
+
+85;Captain;""
+:-
+What do you mean?
+:-
+EMPTY
+:-
+86
+
+86;Player;""
+:-
+I earned this ability where my jump can be boosted and reach high places.
+:-
+EMPTY
+:-
+87
+
+87;Captain;""
+:-
+This is incredible. You could reach the top of the Bell Tower to ring the bell which will help so much when communicating across the different sides of the walls. This is so great. We would be ahead of any monsters that try to overpower our soldiers at any sections of the wall.We really appreciate your hard work in earning this skill and increasing the chances of victory against the monsters.
+:-
+EMPTY
+:-
+88
+
+88;Player;""
+:-
+I am glad that this ability came in handy, Captain. It is also my duty to keep the town safe as a soldier.
+:-
+EMPTY
+:-
+89
+
+89;Captain;""
+:-
+Good thinking, soldier. Never stop improving yourself and stay strong!
+:-
+EMPTY
+:-
+90
+
+90;Player;""
+:-
+Yes, Captain!
+:-
+EMPTY
+:-
+7
+
+91;Captain;""
+:-
+The Castle Walls are extremely strong and stable. It is impossible for monsters to break through the walls. So, there is nothing to worry about regarding the Castle Walls. You should go focus on improving your skills and abilities so that you stand strong in the fight against the monsters.
+:-
+EMPTY
+:-
+92
+
+92;Player;""
+:-
+Understood, Captain!
+:-
+EMPTY
+:-
+7
+
+93;Player;PH
+:-
+Time to head home for the day
+:-
+EMPTY
+:-
+7
+
+94;Amelia;TV
+:-
+Welcome! What can I get for you.
+:-
+EMPTY
+:-
+38

@@ -1,0 +1,37 @@
+0;???;TG
+:-
+Hey you, you're finally awake. 
+:-
+-1;-1;-1;-1;1;Where am I?
+-1;-1;-1;-1;2;Who are you?
+-1;-1;-1;-1;3;<i>Say nothing</i>
+:-
+1
+
+1;Sergeant Gerard;""
+:-
+I'm Sergeant Gerard...
+And you're in the training grounds...
+On your feet soldier! Our village is under attack and we need every sword we can get in this battle.
+:-
+EMPTY
+:-
+-1
+
+2;Sergeant Gerard;""
+:-
+I'm Sergeant Gerard...
+On your feet soldier! Our village is under attack and we need every sword we can get in this battle.
+:-
+EMPTY
+:-
+-1
+
+3;Sergeant Gerard;""
+:-
+Sergeant Gerard calls for your assistance...
+On your feet soldier! Our village is under attack and we need every sword we can get in this battle.
+:-
+EMPTY
+:-
+-1

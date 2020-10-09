@@ -1,0 +1,40 @@
+/*
+"" = no change
+HB = HuntingBoard 
+TV = Tavern
+PH = PlayerHouse
+TG = TrainingGrounds
+CW = CastleWalls
+*/
+
+0;SpeakerName1;Background
+:-
+This is the first sentence to display to the Screen. 
+These are the next two sentences to display to the screen. It includes this one.
+This is the third and the last sentence to be written to the screeen before dialogue options are shown.
+:-
+1;This dialogue option will end up taking you to node 1
+2;This dialogue option will end up taking you to node 2
+1;This dialogue option will end up taking you to node 1
+:-
+1
+
+1;SpeakerName2;Background
+:-
+This is the second dialogue node
+This dialogue node contains no dialogue options
+By default, this dialogue node will take you to node 2 after pressing enter
+:-
+EMPTY
+:-
+2
+
+2;SpeakerName3;Background
+:-
+This dialogue node contains only two dialogue options
+The two options will take you back to dialogue node 0 or 1 respectively
+:-
+0;This button will take you to dialogue node 0
+1;This button will take you to dialogue node 1
+:-
+0

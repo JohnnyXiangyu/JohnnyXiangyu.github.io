@@ -1,0 +1,87 @@
+0;Insert Player Name;PH
+:-
+I can't believe I made it out there alive... What's this?
+It seems that defeating the monster the day before made me stronger.
+I should probably go visit Sergeant Gerad to understand what's happening here.
+:-
+EMPTY
+:-
+7
+
+1;Sergeant Gerard;TG
+:-
+Player's name did you oversleep again?!
+:-
+-1;-1;-1;-1;2;I'm sorry sir
+-1;-1;-1;-1;5;uhhh
+-1;-1;-1;-1;6;no
+:-
+-1
+
+2;Sergeant Gerard;""
+:-
+I don't care if you're sorry, Player's name. We only have 2 more days until this town will be invaded. You have to do something to keep the town safe.
+I would suggest exploring the town and seeing what you can do to help out.
+:-
+-1;-1;-1;-1;3;Where am I?
+-1;-1;-1;-1;4;What's happening?
+:-
+-1
+
+3;Sergeant Gerard;""
+:-
+You’re in [insert town name]. If there’s a bright center to the universe, you are the furthest away from it. We’re a small band of people. We live simple lives.
+We don’t get many outsiders anymore, not since the Grand Path which connects all districts on the continent was finished.
+I wonder how you ended up here… Captain [insert name here] can be found on the castle walls. [He/she] is overseeing our anti-invasion strategy.
+If there’s any way to strengthen our defenses, the captain would know.
+Amelia is the barkeeper at the tavern, been so for as long as I can remember. Word travels around town quickly and she’s at the epicenter of information exchange where people tend to be talkative.
+The hunting board is where you can find monsters that lurk outside the castle walls. Defeating them will suffice as your training. I do not have time to train you but you can ask me any questions on how to defeat them.
+:-
+EMPTY
+:-
+-1
+
+4;Sergeant Gerard;""
+:-
+We have suspicion to believe that the [insert name here] is planning to invade us. 
+Normally, we would only be fighting a couple monsters a month that manage to come out of the forest, but recently the number of monsters that have made it to the walls has increased dramatically. 
+We sent scouts to investigate a couple weeks ago but they haven’t come back since. I fear the worst, which is why we must be prepared. We’re hopelessly outnumbered and unless you miraculously find a way to fortify our defenses, our small defenses don’t stand a chance.
+:-
+EMPTY
+:-
+-1
+
+5;Sergeant Gerard;""
+:-
+Are you stupid? Stop stuttering. We only have 2 more days until this town will be invaded. If you don’t do anything, you, me, and everyone else will be dead. You’re wasting my time, please leave.
+:-
+EMPTY
+:-
+7
+
+6;Sergeant Gerard;""
+:-
+Are you lying straight to my face?! Get out! I have no time for soldiers who don’t know anything about respect
+:-
+EMPTY
+:-
+7
+
+7;Player Name;""
+:-
+EMPTY
+:-
+1;-1;-1;0;1;Move to the Training Ground
+2;-1;-1;0;1;Move to the Training Ground
+-2;-1;-1;0;1;Move to the Training Ground (this is for filler node)
+0;-1;-1;1;3;Move to the Tavern
+1;-1;-1;1;4;Move to the Tavern
+2;-1;-1;1;5;Move to the Tavern
+3;-1;-1;1;6;Move to the Tavern
+0;-1;-1;2;7;Move to the Castle Walls
+3;-1;-1;2;8;Move to the Castle Walls
+-2;-1;-1;2;9;Move to the Castle Walls (this is for filler node)
+-1;-1;-1;6;8; Move to Player House
+-1;-1;-1;-1;-1;Move to the Hunting Board
+:-
+-1
